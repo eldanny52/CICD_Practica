@@ -17,6 +17,7 @@ jobs:
 
   sayBye:
     runs-on: ubuntu-latest
+    needs: hello
     steps:
       - name: Bye QA
         run: echo "Adios QA!"
