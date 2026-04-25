@@ -10,6 +10,13 @@ jobs:
     steps:
       - name: Hello QA
         run: echo "Hello QA!"
-        
+
       - name: Check Node.js version
         run: node --version
+
+    steps:
+      - name: Bye QA
+        run: echo "Adios QA!"
+        
+      - name: sayBye
+        run: echo "Goodbye QA!"
