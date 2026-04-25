@@ -7,14 +7,17 @@ on:
 jobs:
   hello:
     runs-on: ubuntu-latest
-    steps_1:
+    steps:
       - name: Hello QA
         run: echo "Hello QA!"
 
       - name: Check Node.js version
         run: node --version
 
-    steps_2:
+
+  sayBye:
+    runs-on: ubuntu-latest
+    steps:
       - name: Bye QA
         run: echo "Adios QA!"
         
