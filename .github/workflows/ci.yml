@@ -1,0 +1,13 @@
+name: Hello QA
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+jobs:
+  hello:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Hello QA
+        run: echo "Hello QA!"
+        run: node --version
